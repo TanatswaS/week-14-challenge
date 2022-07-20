@@ -1,29 +1,29 @@
 {
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.4",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "express-handlebars": "^6.0.6",
-    "express-session": "^1.17.3",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.21.2"
-  },
   "scripts": {
     "start": "node server.js"
   },
-  "name": "week-14-challenge",
+  "name": "tech-blog",
   "version": "1.0.0",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TanatswaS/week-14-challenge.git"
+    "url": "git+https://github.com/JamesLJenks/14_MVC_Tech-Blog.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TanatswaS/week-14-challenge/issues"
+    "url": "https://github.com/JamesLJenks/14_MVC_Tech-Blog/issues"
   },
-  "homepage": "https://github.com/TanatswaS/week-14-challenge#readme",
-  "description": ""
+  "homepage": "https://github.com/JamesLJenks/14_MVC_Tech-Blog#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  }
 }
